@@ -1,18 +1,87 @@
-.container {
-    width: 100vw;
-    height: 100vh;
-    background: #222222;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    }
-    .box {
-    width: 600px;
-    height: 800px;
-    background: #fff;
-    }
-
 body {
-    margin: 0px;
+    padding: 0;
+    margin: 0;
+    background-color: #2F0000;
+}
+
+.Frameum {
+    /* Frame 1 */
+
+
+}
+
+.PLRPG {
+    /* PLRPG */
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: calc(50% - 800px/2);
+    top: calc(50% - 600px/2);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+}
+
+#status {
+    /* Status */
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+
+    background: #222222;
+}
+
+#inventory {
+    /* Inventário */
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    top: 200px;
+
+    background: #222222;
+}
+
+#dados {
+    /* Dados */
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 400px;
+    top: 0px;
+    background: #222222;
+}
+
+#texto{
+    /* Text Area */
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 400px;
+    top: 100px;
+    background: #222222;
+}
+
+#historico {
+    /* Histórico */
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 400px;
+    top: 400px;
+    background: #222222;
+}
+
+.dados a {
+    /* Button */    
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    left: 25px;
+    top: 40px;
+
+    background: #2F0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
 }
