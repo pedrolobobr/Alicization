@@ -3,7 +3,9 @@ window.onload = function(){
 
     function myFunction() {
          
-        console.log(Math.random() * 10 + 1);
+        var d20 = (Math.random() * 20 + 1);
+        var d20convertido = parseInt(d20);
+        alert(d20convertido)
         
     } 
 };
