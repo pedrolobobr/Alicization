@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2F0000;
+}
+
+
+.PLRPG {
+    /* PLRPG */
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: calc(50% - 800px/2);
+    top: calc(50% - 600px/2);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+}
+
+#status {
+    /* Status */
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+
+    background: #222222;
+}
+
+#inventory {
+    /* Inventário */
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    top: 200px;
+
+    background: #222222;
+}
+
+#dados {
+    /* Dados */
+    width: 400px;
+    height: 100px;
+    left: 400px;
+    top: 0px;
+    background: #222222;
+    position: absolute;
+    text-align: center;
+    
+}
+#dados h1 {
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Fira Code';
+    color: white; 
+} 
+
+.button3 {
+    /* Button */        
+    font-size: 20px;
+    background-color: #2F0000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.25em 0.40em;
+    min-width: 10ch;
+    min-height: 44px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+.button3:hover {
+    background: linear-gradient(#222222 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.5s, background-position 0s;
+
+}
+.button3:active {
+    background-color: #2F0000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#resultadoDados {
+    width: 30px;
+    margin-top: 8px;
+    text-align: center;
+
+    
+}
+#texto{
+    /* Text Area */
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 400px;
+    top: 100px;
+    background: #222222;
+}
+
+#historico {
+    /* Histórico */
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 400px;
+    top: 400px;
+    background: #222222;
+}
+
+
