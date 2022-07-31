@@ -89,11 +89,15 @@ input::-webkit-inner-spin-button {
 }
 
 #resultadoDados {
-    width: 30px;
+    font-size: 20px;
+    width: 35px;
+    height: auto;
+    border-radius: 7px;
     margin-top: 8px;
     text-align: center;
-
-    
+    background-color: #1c1c1c;
+    border: 0;
+    color: white;
 }
 #texto{
     /* Text Area */
