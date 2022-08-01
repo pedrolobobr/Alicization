@@ -1,46 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLRPG</title>
+    <link rel="icon" type="image/x-icon" href="/PLRPG/images/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PLRPG</title>
-  <link rel="icon" type="image/x-icon" href="/PLRPG/images/favicon.ico" />
-  <link rel="stylesheet" href="style.css" />
-  <script type="text/javascript" src="script.js"></script>
-</head>
-
-<body>
-  <div class="Frameum">
-    <div class="PLRPG">
-      <div id="status">
-
-      </div>
-      <div id="inventory">
-
-      </div>
-      <div id="dados">
-        <h1>Dados</h1>
-        <div class="dadosA">
-          <a class="button3" id="d03">D03</a>
-          <a class="button3" id="d06">D06</a>
-          <a class="button3" id="d09">D09</a>
-          <a class="button3" id="d10">D10</a>
-          <a class="button3" id="d12">D12</a>
-          <a class="button3" id="d20">D20</a>
+  <body>
+    <div class="Frameum">
+      <div class="PLRPG">
+        <div id="status"></div>
+        <div id="inventory"></div>
+        <div id="dados">
+          <h1>Dados</h1>
+          <div class="dadosA">
+            <a class="button3" id="d03">D03</a>
+            <a class="button3" id="d06">D06</a>
+            <a class="button3" id="d09">D09</a>
+            <a class="button3" id="d10">D10</a>
+            <a class="button3" id="d12">D12</a>
+            <a class="button3" id="d20">D20</a>
+          </div>
+          <input type="number" id="resultadoDados" readonly />
         </div>
-        <input type="number" id="resultadoDados" readonly>
-      </div>
-      <div id="texto">
-        <h1>Anotações</h1>
-        <textarea type="text" id="textox"></textarea>
-      </div>
-      <div id="historico">
-
+        <div id="texto">
+          <h1>Anotações</h1>
+          <textarea type="text" id="textox"></textarea>
+        </div>
+        <div id="historico"></div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>

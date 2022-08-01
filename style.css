@@ -131,6 +131,7 @@ input::-webkit-inner-spin-button {
     border-color: #2F0000;
     color: white;
     resize: none;
+    outline: none;
 }
 
 #texto h1 {
@@ -139,7 +140,6 @@ input::-webkit-inner-spin-button {
     font-family: 'Fira Code';
     color: white;
 }
-
 
 #historico {
     /* Histórico */
