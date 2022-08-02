@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PLRPG</title>
     <link rel="icon" type="image/x-icon" href="/PLRPG/images/favicon.ico" />
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
         * {
             padding: 0;
             margin: 0;
@@ -18,7 +19,7 @@
         }
         .login {
             background-color: rgba(34, 34, 34, 0.8);
-            position: absolute;
+            position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
@@ -26,23 +27,42 @@
             border-radius: 20px;
             text-align: center;
             color: white;
+            box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
         }
         input{
             padding: 15px;
             border: nono;
             outline: none;
             font-size: 15px;
+            margin-top: 8px;
         }
-        button{
-            background-color: dodgerblue;
+        h1 {
+            margin-bottom: 20px;
+            font-family: 'Roboto Mono', monospace;
+        }
+        .loginbutton{
+            background-color: #2F0000;
             border:none;
             padding:15px;
             width: 100%;
             color: white;
+            margin-top: 12px;
+            outline: none;
+            
         }
-        button:hover{
-            background-color: deepskyblue;
+        .loginbutton:hover{
+            background-color: #590101;
             cursor: pointer;
+        }
+        .naotemconta {
+            margin-top: 10px;
+        }
+        .naotemconta button {
+            padding: 6px;
+            border-radius: 5px;
+            background-color: #2F0000;
+            color: white;
+            border: 0;
         }
     </style>
 </head>
@@ -50,12 +70,16 @@
 <body>
     <div class="login">
         <h1>Login</h1>
-        <br></br>
+        <div>
         <input type="text" placeholder="Login" id="login">
-        <br></br>
+        </div>
+        <div>
         <input type="password" placeholder="Senha" id="senha">
-        <br></br>
-        <button>Login</button>
+        </div>
+        <button class="loginbutton">Login</button>
+        <div class="naotemconta">
+            <button href="">Cadastrar</button>
+        </div>
     </div>
 </body>
 
