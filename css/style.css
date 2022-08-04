@@ -19,7 +19,7 @@ body {
 
 #status {
     /* Status */
-    position: absolute;
+    position: table;
     width: 400px;
     height: 200px;
     left: 0px;
@@ -28,6 +28,17 @@ body {
     background: #222222;
 }
 
+.statuslabel {
+    display: table;
+}
+
+.statuslabel textarea {
+    resize: none;
+    outline: none;
+    height: 18px;
+    width: 50px;
+    align-te;
+}
 #inventory {
     /* Inventário */
     position: absolute;
