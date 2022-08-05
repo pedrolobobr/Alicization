@@ -19,25 +19,33 @@ body {
 
 #status {
     /* Status */
-    position: table;
+    position: absolute;
     width: 400px;
     height: 200px;
     left: 0px;
     top: 0px;
-
     background: #222222;
 }
 
-.statuslabel {
-    display: table;
+#status h1 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Fira Code';
+    color: white;
+    margin-top: 20px;
 }
+
+.statuslabel {
+    margin-top: 10px;
+    
+ }
 
 .statuslabel textarea {
     resize: none;
     outline: none;
     height: 18px;
     width: 50px;
-    align-te;
+
 }
 #inventory {
     /* Inventário */
