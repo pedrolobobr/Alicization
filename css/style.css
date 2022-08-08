@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #2F0000;
+    background-color: #1E5128;
 
 }
 
@@ -16,6 +16,8 @@ body {
     top: calc(50% - 600px/2);
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
     background: #FFFFFF;
+    border-style: solid;
+    border-color: #4E9F3D;
 }
 
 #status {
@@ -25,14 +27,14 @@ body {
     height: 200px;
     left: 0px;
     top: 0px;
-    background: #222222;
+    background: #191A19;
 }
 
 #status h1 {
     font-size: 18px;
     text-align: center;
     font-family: 'Fira Code';
-    color: white;
+    color: #D8E9A8;
     margin-top: 20px;
 }
 
@@ -41,7 +43,7 @@ body {
  }
 .statusinput {
     margin-top: 3px;
-    background-color: #222222;
+    background-color: #191A19;
     color: white;
     text-align: center;
     width: 80px;
@@ -51,7 +53,7 @@ body {
 }
 .statusinput::placeholder {
     text-align: center;
-    color: #FFFFFF;
+    color: gray;
     opacity: 0.1;
 }
 .statusinput:hover {
@@ -74,8 +76,7 @@ body {
     height: 400px;
     left: 0px;
     top: 200px;
-
-    background: #222222;
+    background: #191A19;
 }
 
 #dados {
@@ -84,7 +85,7 @@ body {
     height: 200px;
     left: 400px;
     top: 0px;
-    background: #222222;
+    background: #191A19;
     position: absolute;
     text-align: center;
 
@@ -98,14 +99,14 @@ body {
     font-size: 18px;
     text-align: center;
     font-family: 'Fira Code';
-    color: white;
+    color: #D8E9A8;
     margin-top: 20px;
 } 
 
 .button3 {
     /* Button */
     font-size: 20px;
-    background-color: #2F0000;
+    background-color: #4E9F3D;
     color: #fff;
     border-radius: 8px;
     padding: 0.25em 0.40em;
@@ -127,7 +128,7 @@ body {
 }
 
 .button3:active {
-    background-color: #2F0000;
+    background-color: #399228;
 }
 
 input::-webkit-outer-spin-button,
@@ -160,7 +161,7 @@ input::-webkit-inner-spin-button {
     height: 300px;
     left: 400px;
     top: 200px;
-    background: #222222;
+    background: #191A19;
     text-align: center;
 }
 #textox {
@@ -168,7 +169,7 @@ input::-webkit-inner-spin-button {
     height: 250px;
     background-color: #1c1c1c;
     border-style: solid;
-    border-color: #2F0000;
+    border-color: #4E9F3D;
     color: white;
     resize: none;
     outline: none;
@@ -178,7 +179,7 @@ input::-webkit-inner-spin-button {
     font-size: 17px;
     text-align: center;
     font-family: 'Fira Code';
-    color: white;
+    color: #D8E9A8;
 }
 
 #historico {
@@ -188,5 +189,5 @@ input::-webkit-inner-spin-button {
     height: 100px;
     left: 400px;
     top: 500px;
-    background: #222222;
+    background: #191A19;
 }
