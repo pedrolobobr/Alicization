@@ -5,11 +5,17 @@ body {
     background-color: #1E5128;
 
 }
-#flop {
+#bookdropmenu {
     width: 40px;
     height: 40px;
-    float: left;
-    padding: 10px;
+    border: none;
+    background: none;
+}
+#bookdropmenu:hover {
+    width: 50px;
+    height: 40px;
+    border: none;
+    background: none;
 }
 .PLRPG {
     /* PLRPG */
