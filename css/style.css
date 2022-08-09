@@ -6,7 +6,10 @@ body {
 
 }
 
-
+#flop {
+    width: 50px;
+    height: 50px;
+}
 .PLRPG {
     /* PLRPG */
     position: absolute;
@@ -17,7 +20,26 @@ body {
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
     background: #FFFFFF;
 }
+nav {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    position: fixed;
+    background-color: #ffff;
+    z-index: 99;
+}
 
+nav a {
+    color: #2F0000;
+    font-weight: bold;
+}
+nav li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 15px;
+
+}
 #status {
     /* Status */
     position: absolute;
