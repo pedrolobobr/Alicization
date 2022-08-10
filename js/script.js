@@ -1,3 +1,4 @@
+
 window.addEventListener('load', function () {
     document.getElementById("d03").onclick = function () {
         myFunction()
@@ -73,5 +74,16 @@ window.addEventListener('load', function () {
         var d20 = (Math.random() * 20 + 1);
         var d20convertido = parseInt(d20);
         document.getElementById('resultadoDados').value = d20convertido;
+    }
+});
+window.addEventListener('load', function () {
+    document.getElementById("bookdropmenu").onclick = function () {
+        myFunction()
+    };
+
+    function myFunction() {
+
+        var input = document.getElementById("textox").value;
+        alert(input);
     }
 });
