@@ -82,8 +82,50 @@ window.addEventListener('load', function () {
     };
 
     function myFunction() {
-
-        var input = document.getElementById("textox").value;
-        alert(input);
+        /* Textox*/
+        var inputtextox = document.getElementById("textox").value;
+         /* status01*/
+        var inputstatusinput1 = document.getElementById("statusinput1").value;
+        var inputvalueinput1 = document.getElementById("valueinput1").value;
+          /* status02*/
+        var inputstatusinput2 = document.getElementById("statusinput2").value;
+        var inputvalueinput2 = document.getElementById("valueinput2").value;
+            /* status03*/
+        var inputstatusinput3 = document.getElementById("statusinput3").value;
+        var inputvalueinput3 = document.getElementById("valueinput3").value;
+          /* status04*/
+        var inputstatusinput4 = document.getElementById("statusinput4").value;
+        var inputvalueinput4 = document.getElementById("valueinput4").value;
+            /* status05*/
+        var inputstatusinput5 = document.getElementById("statusinput5").value;
+        var inputvalueinput5 = document.getElementById("valueinput5").value;
+          /* status06*/
+        var inputstatusinput6 = document.getElementById("statusinput6").value;
+        var inputvalueinput6 = document.getElementById("valueinput6").value;
+            /* status07*/
+        var inputstatusinput7 = document.getElementById("statusinput7").value;
+        var inputvalueinput7 = document.getElementById("valueinput7").value;
+          /* status08*/
+        var inputstatusinput8 = document.getElementById("statusinput8").value;
+        var inputvalueinput8 = document.getElementById("valueinput8").value;
+            /* status09*/
+        var inputstatusinput9 = document.getElementById("statusinput9").value;
+        var inputvalueinput9 = document.getElementById("valueinput9").value;
+          /* status10*/
+        var inputstatusinput10 = document.getElementById("statusinput10").value;
+        var inputvalueinput10 = document.getElementById("valueinput10").value;
+            /* status11*/
+        var inputstatusinput11 = document.getElementById("statusinput11").value;
+        var inputvalueinput11 = document.getElementById("valueinput11").value;
+          /* status12*/
+        var inputstatusinput12 = document.getElementById("statusinput12").value;
+        var inputvalueinput12 = document.getElementById("valueinput12").value;
+            /* status13*/
+        var inputstatusinput13 = document.getElementById("statusinput13").value;
+        var inputvalueinput13 = document.getElementById("valueinput13").value;
+          /* status14*/
+        var inputstatusinput14 = document.getElementById("statusinput14").value;
+        var inputvalueinput14 = document.getElementById("valueinput14").value;
+        
     }
 });
