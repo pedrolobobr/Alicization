@@ -1,4 +1,6 @@
- window.addEventListener('load', function () {
+
+
+window.addEventListener('load', function () {
     document.getElementById("d03").onclick = function () {
         myFunction()
     };
@@ -126,28 +128,15 @@ window.addEventListener('load', function () {
         var inputstatusinput14 = document.getElementById("statusinput14").value;
         var inputvalueinput14 = document.getElementById("valueinput14").value;
         
+        let blob = new Blob(["inputstatusinput1=" + inputstatusinput1 +"\n",
+        "inputvalueinput1=" + inputvalueinput1 +"\n"
+        ],
+        {
+            type: "text/plain;charset=utf-8" 
+        });
+        saveAs(blob, "PLRPG" + ".txt");
     }
 });
 
 
-window.addEventListener('load', function () {
-    document.getElementById("bookdropmenu").onclick = function () {
-        escreverArquivo()
-    };
-
-    function escreverArquivo(passForm) {
-        set fso = CreateObject("Scripting.FileSystemObject"); 
-        set s   = fso.CreateTextFile("<your Path>/filename.txt", True);
-         
-            var firstName = document.getElementById('FirstName');
-            var lastName  = document.getElementById('lastName');
-         
-            s.writeline("First Name :" + FirstName);
-            s.writeline("Last Name :" + lastName);
-         
-            s.writeline("-----------------------------");
-            s.Close();
-         }
-            
-    }
-});
+                                                        
