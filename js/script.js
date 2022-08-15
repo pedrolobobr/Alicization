@@ -128,14 +128,12 @@ window.addEventListener('load', function () {
         var inputstatusinput14 = document.getElementById("statusinput14").value;
         var inputvalueinput14 = document.getElementById("valueinput14").value;
         
-        let blob = new Blob(["inputstatusinput1=" + inputstatusinput1 +"\n",
-        "inputvalueinput1=" + inputvalueinput1 +"\n"
-        ],
+        let blob = new Blob(['{ "status01": { "inputstatusinput1": "'+inputstatusinput1+'", "inputvalueinput1": "123" }, "status02": {}, "inputstatusinput2": "1233", "inputvalueinput3": "1233" }'
+    ],
         {
             type: "text/plain;charset=utf-8" 
         });
-        saveAs(blob, "PLRPG" + ".txt");
+        saveAs(blob, "PLRPG" + ".json");
     }
 });
-
 
