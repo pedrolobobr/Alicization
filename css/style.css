@@ -4,38 +4,16 @@
   margin: 0;
 }
 body {
-  padding: 0;
-  margin: 0;
   background-color: #1e5128;
 }
-#bookdropmenu {
-  width: 40px;
-  height: 40px;
+
+.book{
+  width: 45px;
+  height: 45px;
   border: none;
   background: none;
-  transition: 0.5s, background-position 0s;
 }
-#bookdropmenu:hover {
-  width: 50px;
-  height: 40px;
-  border: none;
-  background: none;
-  transition: 0.8s, background-position 0s;
-}
-#skullbookdropmenu {
-  width: 40px;
-  height: 40px;
-  border: none;
-  background: none;
-  transition: 0.5s, background-position 0s;
-}
-#skullbookdropmenu:hover {
-  width: 50px;
-  height: 40px;
-  border: none;
-  background: none;
-  transition: 0.8s, background-position 0s;
-}
+
 .PLRPG {
   /* PLRPG */
   position: absolute;
