@@ -137,3 +137,26 @@ window.addEventListener('load', function () {
     }
 });
 
+
+(function(){
+    
+    function onChange(event) {
+        var reader = new FileReader();
+        reader.onload = onReaderLoad;
+        reader.readAsText(event.target.files[0]);
+    }
+
+    function onReaderLoad(event){
+        console.log(event.target.result);
+        var obj = JSON.parse(event.target.result);
+        pedrin(obj.status01.inputstatusinput1, obj.status01.inputvalueinput1, obj.status02.inputstatusinput1, obj.status02.inputvalueinput1);
+    }
+    
+    function pedrin(inputstatusinput1, inputvalueinput1){
+        document.getElementById('statusinput1').value = inputstatusinput1;
+        document.getElementById('valueinput1').value = inputvalueinput1;
+    }
+ 
+    document.getElementById('file').addEventListener('change', onChange);
+
+}());
