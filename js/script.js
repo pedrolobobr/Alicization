@@ -178,9 +178,7 @@ window.addEventListener("load", function () {
           inputstatusinput14 +
           '", "inputvalueinput14": "' +
           inputvalueinput14 +
-          '" }, "textox": { "inputtextox": "' +
-          inputtextox +
-          '"}}',
+          '" }, "textox": { "inputtextox": ""}}',
       ],
       {
         type: "text/plain;charset=utf-8",
