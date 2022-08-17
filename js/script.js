@@ -76,7 +76,7 @@ window.addEventListener("load", function () {
 
   function myFunction() {
     /* Textox*/
-    var inputtextox = document.getElementById("textox").value;
+   /* var inputtextox = document.getElementById("textox").value;
     /* status01*/
     var inputstatusinput1 = document.getElementById("statusinput1").value;
     var inputvalueinput1 = document.getElementById("valueinput1").value;
@@ -292,7 +292,7 @@ window.addEventListener("load", function () {
     document.getElementById("valueinput13").value = inputvalueinput13;
     document.getElementById("statusinput14").value = inputstatusinput14;
     document.getElementById("valueinput14").value = inputvalueinput14;
-    document.getElementById("textox").value = inputtextox;
+   /* document.getElementById("textox").value = inputtextox;*/
   }
 
   document.getElementById("file").addEventListener("change", onChange);
