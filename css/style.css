@@ -2,31 +2,50 @@
 * {
   padding: 0;
   margin: 0;
+ 
 }
+
 body {
   background-color: #1e5128;
 }
 
-.book{
-  width: 45px;
-  height: 45px;
-  border: none;
-  background: none;
+.frame {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .PLRPG {
   /* PLRPG */
   position: absolute;
-  width: 800px;
+  width: 855px;
   height: 600px;
-  left: calc(50% - 800px / 2);
-  top: calc(50% - 600px / 2);
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
-  background: #ffffff;
+  background: #4e9f3d;
   border-style: solid;
   border-color: #4e9f3d;
 }
 
+.navbar {
+  height: 600px;
+  width: 50px;
+  background-color: #191a19;
+  margin-left: 804px;
+  display: inline-block;
+  
+}
+.book{
+  
+  margin-top: 4px;
+  margin-left: 1px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background: none;
+}
 #status {
   /* Status */
   position: absolute;
